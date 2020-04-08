@@ -1,3 +1,4 @@
+// import Head from 'next/head'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
@@ -11,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
-          <body>
+          <body className="ed-grid">
             <Main />
             <NextScript />
           </body>

@@ -11,12 +11,11 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="es">
-        <Head>
-          <body className="ed-grid">
-            <Main />
-            <NextScript />
-          </body>
-        </Head>
+        <Head />
+        <body className="ed-grid">
+          <Main />
+          <NextScript />
+        </body>
       </Html>
     )
   }
